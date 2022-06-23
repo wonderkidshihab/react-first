@@ -1,18 +1,8 @@
-import Counter from "./Counter";
+import HomePage from "./Pages/HomePage/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <p>This is a paragraph</p>
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
-
-    </div>
+    <HomePage />
   );
 }
 

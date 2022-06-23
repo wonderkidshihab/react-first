@@ -1,0 +1,83 @@
+ .skill-widget{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 4em;
+    height: 300px;
+    width: 300px;
+
+
+}
+.skill-widget:hover{
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.159);
+}
+
+.skill-widget-header h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.skill-widget-header h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.skill-widget-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.skill-widget-body-left{
+    align-self: center;
+    margin: 0px auto;
+
+
+
+}
+
+.skill-widget-body-left-image{
+    margin-bottom: 10px;
+}
+.skill-widget-body-left-image img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+ .skill-widget-body-right{
+    flex-direction: column;
+    display: none;
+
+
+}
+
+.skill-widget-body-right-text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}  

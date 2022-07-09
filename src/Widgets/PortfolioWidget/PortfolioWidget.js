@@ -1,7 +1,7 @@
 function PortfolioWidget(props) {
     return (
 
-        <div className=" bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 row-span-4">
+        <div className=" bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 md:w-1/4">
             <a href={props.href}>
                 <img className="rounded-t-lg p-10" src={props.image} alt="" />
             </a>

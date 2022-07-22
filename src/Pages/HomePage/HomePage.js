@@ -1,18 +1,19 @@
-import Intro from "./Sections/Intro/Intro";
-import Navbar from "./Sections/Navbar/Navbar";
-import Portfolios from "./Sections/Portfolios/Portfolios";
-import Skills from "./Sections/Skills/Skills";
+import {pages, buttons, categories} from "../../DummyData/dummyDatas";
+import CategoriesSection from "./Sections/categoriesSection";
+
+import NavBar from "../../Components/Layout/NavBar";
 
 function HomePage(props) {
-    return (
-        <div>
-            <Navbar />
-            <Intro />
-            <Skills />
-            <Portfolios />
-        </div>
+    
 
-    );
+    return ( 
+        <>
+            <NavBar pages={pages} 
+            buttons={buttons} 
+             />
+             <CategoriesSection categories={categories} />
+        </>
+     );
 }
 
 export default HomePage;

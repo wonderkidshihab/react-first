@@ -20,7 +20,7 @@ function NavBar(props) {
                         <input className="bg-transparent border-none w-full h-full text-sm focus-visible:border-none focus:border-none outline-none" type="text" placeholder="e.g. Books" />
                         <img className="h-6 w-6 rounded-full mx-4" src={closse} alt="close" />
                     </div>
-                    <TextButton text="Consumer Electronics" onClick={props.onCart}  />
+                    <TextButton text="Consumer Electronics" onClick={props.onCart} className="text-blue-400 font-thin" />
                 </div>
                 <div className="flex flex-row items-center">
                 

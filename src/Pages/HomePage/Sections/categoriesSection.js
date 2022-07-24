@@ -204,7 +204,7 @@ function Category(props) {
         <button onClick={() => {
             handleCategoryClick(category);
         }}>
-            <div className={"flex flex-col items-center p-1" + isActive == true ? "bg-blue-100" : ""}>
+            <div className={`flex flex-col items-center p-2 rounded-md  ${isActive == true ? "bg-blue-100" : ""}`}>
                 <img src={image} alt={name} className={"w-14 h-14 rounded-full"} />
                 <div className="text-center">
                     <h3 className="text-sm font-bold mt-3">{name}</h3>
